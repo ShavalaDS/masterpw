@@ -1,151 +1,175 @@
-# Ecosystem map — Coabitazione e nuove forme dell’abitare
+# 📋 Documentazione di Progetto: Delivery GDO per Nuove Forme dell'Abitare
+**Progetto:** Ottimizzazione dei servizi di e-grocery (Esselunga / Penny Market) per nuclei di coabitazione non familiare.
+**Metodologia:** Strategic UX Research & Service Design.
 
-## Tesi
+---
 
-> La casa non è più progettata soltanto per una famiglia, ma per una pluralità di persone e relazioni temporanee.
+# PART 1: 🗺️ Ecosystem Map & Validazione dei Dati
 
-I dati Istat mostrano famiglie più piccole, più persone sole e una riduzione delle coppie con figli. La coabitazione tra persone non imparentate va letta dentro questo cambiamento, anche se le statistiche ufficiali non isolano sempre i coinquilini non parenti. [web:18][web:19]
+## 📊 Verifica della Tesi alla luce delle evidenze incrociate
 
-## Evidenze quantitative
+**Tesi Iniziale:** 
+*La casa non è più progettata soltanto per una famiglia, ma per una pluralità di persone e relazioni temporanee. Le app di spesa online della GDO (es. Esselunga, Penny) ignorano questo segmento collettivo, trattandolo erroneamente tramite account singoli.*
 
-| Indicatore | 2002-2003 | 2023-2024 | Evoluzione |
-|---|---:|---:|---|
-| Famiglie unipersonali | 25,5% | 36,2% | Forte aumento |
-| Coppie con figli | 42,2% | 29,2% | Forte diminuzione |
-| Coppie senza figli | 20,9% | 20,2% | Quasi stabile |
-| Famiglie monogenitore | 8,2% | 10,8% | Aumento |
-| Altra tipologia* | 3,2% | 3,6% | Lieve aumento |
+### 🔍 Il Fact-Checking Metodologico: Cosa è vero e cosa no?
 
-\* “Altra tipologia” comprende famiglie senza nucleo diverse dalle persone sole e famiglie formate da due o più nuclei; non coincide esclusivamente con i coinquilini non parenti. [web:19]
+1. **L'invisibilità anagrafica vs La realtà dei fatti:** L'intuizione di partenza è **parzialmente smentita** dal solo dato demografico Istat sulle famiglie, dove le coabitazioni non parentali faticano a emergere in modo pulito nella voce "Altra tipologia", ferma al 3,6%.
+2. **La prova regina (I dati OMI):** La tesi viene **pienamente confermata** quando si incrocia la demografia con la contabilità dei contratti reali dell'Agenzia delle Entrate (OMI). La serie storica sul numero di contratti per **"Immobili in porzione"** (affitto di singole stanze) mostra un balzo netto da 265.277 a **349.028 contratti registrati**, certificando che circa il 35% delle locazioni urbane attive nei capoluoghi è ormai a stanze.
+3. **Il Verdetto per il Design:** Il fenomeno non è una nicchia transitoria di studenti, ma un'infrastruttura macroeconomica consolidata. Oltre 1,5 milioni di individui in Italia coabitano legalmente condividendo la logistica dello stesso frigorifero, ma rimangono "nascosti" all'anagrafe come nuclei unipersonali separati. C'è un gap evidente tra il modello operativo della GDO e l'infrastruttura abitativa reale.
 
-La dimensione media della famiglia è scesa da circa 2,6 a circa 2,2 persone. [web:18][web:19]
+---
 
-## Ecosystem map
+## 🖼️ Ecosystem Map Strutturata
+
+```mermaid
+flowchart TD
+    %% Definizione dei Nodi Macro e Connessioni Principali
+    subgraph Macro_Context ["Scenario e Driver di Mercato"]
+        A1["Macrotrend Istat<br/>Singoli al 36.2%<br/>Diminuzione coppie"] 
+        A2["Mercato Immobiliare OMI<br/>349.028 Immobili in porzione<br/>34.9% Affitti a stanze nei capoluoghi"]
+    end
+
+    subgraph Core_Target ["Il Nucleo Collettivo Coinvolto"]
+        B["COABITAZIONE NON FAMILIARE<br/>(Co-living / Inquilini non parenti)"]
+    end
+
+    subgraph Stakeholders ["Attori ed Ecosistema Esterno"]
+        H["Proprietari Privati"]
+        I["Società di Gestione Property"]
+        J["Piattaforme di Delivery GDO<br/>(Esselunga / Penny)"]
+    end
+
+    subgraph Pain_Points ["Frizioni Interne ed Economiche (As-Is)"]
+        O["Privacy e Confini Spaziali"]
+        P["Gestione Turni e Pulizie"]
+        Q["Economia Domestica<br/>(Split spese e Anticipi soldi)"]
+        R["Transitorietà Contrattuale"]
+    end
+
+    subgraph Opportunities ["Opportunità del Servizio Digitale (To-Be)"]
+        U1["Carrello Multi-utente Condiviso"]
+        U2["Split-Payment Nativo al Checkout"]
+        U3["Abbonamenti Ricorrenti di Casa"]
+    end
+
+    %% Flussi di relazione e impatto
+    A1 & A2 --> B
+    B <--> H & I
+    J -.-> |Ignora l'unità collettiva| B
+    B --> O & P & Q & R
+    Q & O --> U1
+    Q --> U2
+    R & P --> U3
+
+    %% Classi di Stile Ottimizzate per Leggibilità
+    classDef trend fill:#EAF2F8,stroke:#2980B9,stroke-width:2px,color:#1B4F72;
+    classDef central fill:#FCF3CF,stroke:#F39C12,stroke-width:3px,color:#7E5109;
+    classDef actors fill:#EBDEF0,stroke:#8E44AD,stroke-width:2px,color:#4A235A;
+    classDef problems fill:#FDEDEC,stroke:#C0392B,stroke-width:2px,color:#641E16;
+    classDef opps fill:#E8F8F5,stroke:#16A085,stroke-width:2px,color:#0E6251;
+
+    class A1,A2 trend;
+    class B central;
+    class H,I,J actors;
+    class O,P,Q,R problems;
+    class U1,U2,U3 opps;
+```
+
+---
+
+## 📊 Tassonomia delle Forme di Coabitazione
+
+```mermaid
+graph TD
+    A["MODELLI DI ABITAZIONE CELLULARE"] --> B["Coabitazione Familiare<br/>(Rilevata accuratamente da Istat)"]
+    A --> C["Coabitazione Non Familiare<br/>(La zona d'ombra quantitativa)"]
+
+    B --> B1["Coppie con figli (29,2%)"]
+    B --> B2["Coppie senza figli (20,2%)"]
+    B --> B3["Monogenitori (10,8%)"]
+
+    C --> C1["Studentato Spontaneo<br/>(Focus: Penny Market / Budget)"]
+    C --> C2["Young Professionals / Fuori Sede<br/>(Focus: Esselunga / Time-saving)"]
+    C --> C3["Modelli Istituzionali / Co-housing"]
+
+    classDef fam fill:#EAFAF1,stroke:#27AE60,color:#145A32;
+    classDef nonFam fill:#FEF9E7,stroke:#D35400,color:#6E2C00;
+    class B,B1,B2,B3 fam;
+    class C,C1,C2,C3 nonFam;
+```
+
+---
+
+## 🔄 Il Modello delle Frizioni e Mappatura delle Soluzioni
 
 ```mermaid
 flowchart LR
-    A["MACROTREND<br/>Famiglie più piccole<br/>Invecchiamento<br/>Affitti elevati<br/>Mobilità"]
-    B["PERSONE NON IMPARENTATE<br/>SOTTO LO STESSO TETTO"]
-    C["Studenti"]
-    D["Lavoratori fuori sede"]
-    E["Amici e coinquilini"]
-    F["Anziani"]
-    G["Migranti"]
-    H["Proprietari"]
-    I["Agenzie immobiliari"]
-    J["Piattaforme digitali"]
-    K["Università e aziende"]
-    L["Comune e servizi sociali"]
-    M["Famiglia d'origine"]
-    N["Quartiere e vicinato"]
-    O["Privacy e confini"]
-    P["Pulizie e responsabilità"]
-    Q["Spese e utenze"]
-    R["Contratti e garanzie"]
-    S["Rumore e conflitti"]
-    T["Transitorietà e instabilità"]
-    U["OPPORTUNITÀ DI DESIGN<br/>Spazi flessibili<br/>Regole condivise<br/>Gestione spese<br/>Mediazione"]
-    A --> B
-    B --> C & D & E & F & G
-    H --> B
-    I --> B
-    J --> B
-    K --> B
-    L --> B
-    M --> B
-    N --> B
-    B --> O & P & Q & R & S & T
-    O & P & Q & R & S & T --> U
-    classDef trend fill:#E8F1F8,stroke:#39739D,stroke-width:2px,color:#17324D
-    classDef central fill:#F4B942,stroke:#9A6B00,stroke-width:3px,color:#241A00
-    classDef people fill:#E8F5E9,stroke:#4F8A53,color:#173B1B
-    classDef actors fill:#F3E8FF,stroke:#7C4D99,color:#30163E
-    classDef problems fill:#FFE8E6,stroke:#B64B42,color:#4A1713
-    classDef opportunities fill:#E4F7F5,stroke:#198F88,color:#123E3B
-    class A trend
-    class B central
-    class C,D,E,F,G people
-    class H,I,J,K,L,M,N actors
-    class O,P,Q,R,S,T problems
-    class U opportunities
+    %% Area Problemi
+    subgraph Frizioni_Utente ["Pain Points Rilevati"]
+        P1["Mancanza di spazio comune nel frigo"]
+        P2["Anticipo economico del singolo per tutti"]
+        P3["Rincorsa dei micro-debiti (Splitwise/Contanti)"]
+        P4["Frammentazione degli ordini singoli (Più consegne)"]
+    end
+
+    %% Area Soluzioni
+    subgraph Soluzioni_GDO ["Opportunità nell'App Delivery"]
+        S1["Tag o Sub-Carrelli personali per singolo ripiano"]
+        S2["Divisione automatica del conto alla cassa"]
+        S3["Integrazione sistemi P2P (Satispay/Bancomat Pay)"]
+        S4["Unificazione Logistica con sconti sul volume della Casa"]
+    end
+
+    %% Collegamenti diretti causali
+    P1 --> S1
+    P2 --> S2
+    P3 --> S3
+    P4 --> S4
+
+    classDef prob fill:#FDF2E9,stroke:#E67E22,color:#7E5109;
+    classDef sol fill:#EBF5FB,stroke:#3498DB,color:#1B4F72;
+    class P1,P2,P3,P4 prob;
+    class S1,S2,S3,S4 sol;
 ```
 
-## Forme di coabitazione
+---
 
-```mermaid
-flowchart TB
-    A["COABITAZIONE"]
-    A --> B["Familiare"]
-    A --> C["Non familiare"]
-    B --> B1["Coppia con figli"]
-    B --> B2["Coppia senza figli"]
-    B --> B3["Monogenitore"]
-    B --> B4["Fratelli o parenti"]
-    C --> C1["Studenti"]
-    C --> C2["Lavoratori fuori sede"]
-    C --> C3["Amici"]
-    C --> C4["Coinquilini"]
-    C --> C5["Coabitazione temporanea"]
-```
+# PART 2: 📋 UX Research Plan
 
-## Attori e relazioni
+## 1. Background & Context
+Le attuali piattaforme di e-grocery e delivery dei grandi player della GDO (es. Esselunga, Penny Market) sono storicamente progettate su modelli familiari tradizionali o sul profilo del consumatore singolo. 
 
-```mermaid
-flowchart LR
-    A["ABITANTE"]
-    B["Coinquilini"]
-    C["Proprietario"]
-    D["Piattaforma digitale"]
-    E["Università / azienda"]
-    F["Comune"]
-    G["Quartiere"]
-    H["Famiglia d'origine"]
-    I["Servizi sociali"]
-    A <--> B
-    A --> C
-    D --> A
-    E --> A
-    F --> A
-    G <--> A
-    H --> A
-    I --> A
-```
+I dati demografici correnti evidenziano tuttavia una trasformazione strutturale della società: il crollo dei nuclei familiari con figli e la crescita esponenziale di famiglie unipersonali. Parallelamente, i dati OMI dell'Agenzia delle Entrate certificano l'esplosione dei contratti per "immobili in porzione" (stanze singole), passati a quota 349.028 unità attive.
 
-## Problemi e opportunità
+Esiste un segmento di mercato emergente — composto da coinquilini non parenti — le cui dinamiche di economia domestica, logistica e condivisione delle spese alimentari non sono attualmente intercettate dall'offerta digitale della GDO.
 
-```mermaid
-flowchart LR
-    A["COABITAZIONE"]
-    B["Privacy"]
-    C["Pulizie"]
-    D["Spese"]
-    E["Contratti"]
-    F["Conflitti"]
-    G["Instabilità"]
-    H["Spazi flessibili"]
-    I["Regole condivise"]
-    J["Gestione digitale"]
-    K["Contratti modulari"]
-    L["Mediazione"]
-    M["Servizi di matching"]
-    A --> B & C & D & E & F & G
-    B --> H
-    C --> I
-    D --> J
-    E --> K
-    F --> L
-    G --> M
-```
+## 2. Business Objectives & Design Opportunity
+* **Dimostrare l'esistenza e il valore** di un cluster di utenti "collettivo" (il nucleo di coabitazione) attualmente ignorato dai sistemi di carrello e pagamento unici.
+* **Identificare nuove feature di servizio** (es. carrelli condivisi, split-payment nativo, gestione delle macro-scorte comuni) in grado di posizionare il brand come abilitatore di nuove forme di convivenza, aumentando la fidelizzazione e lo scontrino medio della casa.
 
-## Nota metodologica
+## 3. Research Goals (Obiettivi di Ricerca)
+* **Goal 1:** Comprendere i modelli mentali e le dinamiche di collaborazione/frizione tra coinquilini nella gestione della spesa e della dispensa.
+* **Goal 2:** Mappare l'attuale ecosistema di strumenti "accrocchiati" dagli utenti (es. WhatsApp + Splitwise + Excel) per compensare i limiti delle attuali app di delivery.
+* **Goal 3:** Isolare i comportamenti d'acquisto comunitari (beni condivisi) da quelli individuali (spesa personale) all'interno dello stesso nucleo abitativo.
+* **Goal 4:** Indagare la percezione e il posizionamento dei brand GDO (Premium vs Discount) all'interno delle economie di coabitazione.
 
-I dati Istat descrivono la struttura delle famiglie, non tutti i casi di semplice condivisione dell’abitazione. “Altra tipologia” può comprendere due fratelli conviventi, ma non identifica separatamente tutti i coinquilini non parenti. Per documentare il fenomeno specifico servono anche interviste, osservazione e dati su studenti, lavoratori mobili, migranti e abitazioni condivise. [web:18][web:19]
+## 4. Key Research Questions (Domande di Ricerca)
+* *In che modo i coinquilini negoziano la lista della spesa comune e bilanciano le preferenze alimentari individuali?*
+* *Quali sono i punti di attrito principali nella catena logistica della spesa in casa (dall'ordine, al momento del pagamento, fino allo stoccaggio in frigo)?*
+* *Come viene vissuto l'impatto economico della spesa e come vengono gestiti i micro-debiti interni?*
 
-## Riferimenti
+## 5. Methodology & Research Tools
+Per rispondere agli obiettivi utilizzeremo un approccio qualitativo ed esplorativo, ideale per mappare comportamenti complessi:
 
-- Istat, [Indicatori demografici — Anno 2024](https://www.istat.it/comunicato-stampa/indicatori-demografici-anno-2024/). [web:18]
-- Istat, [Indicatori demografici — Anno 2024, PDF](https://www.istat.it/wp-content/uploads/2025/03/indicatori_demografici_2024.pdf). [web:19]
-- Istat, [I nuclei familiari nei censimenti della popolazione](https://www.istat.it/comunicato-stampa/i-nuclei-familiari-nei-censimenti-della-popolazione/). [web:17]
-- Istat, [Previsioni della popolazione e delle famiglie](https://www.istat.it/wp-content/uploads/2024/07/Previsioni-popolazione-famiglie_2023.pdf). [web:25]
-- Visual Studio Code, [Markdown](https://code.visualstudio.com/docs/languages/markdown). Supporto ai blocchi Mermaid nella preview. [web:27]
-- Mermaid, [Flowcharts](https://mermaid.ai/open-source/syntax/flowchart.html). Sintassi per diagrammi. [web:28]
+* **Interviste Qualitative Semi-strutturate (In-depth Interviews):** Interviste di 60 minuti condotte a coppie di coinquilini appartenenti allo stesso nucleo. Il focus sarà il racconto di episodi reali e la ricostruzione dell'ultima spesa effettuata.
+* **Osservazione Contestuale / Contextual Inquiry (Disamina della Dispensa):** Durante le interviste, chiederemo ai partecipanti di mostrarci (anche via webcam o foto) l'organizzazione fisica del frigorifero e della dispensa, per validare sul campo le regole invisibili di gestione degli spazi condivisi.
+
+## 6. Target & Sampling Plan (Criteri di Reclutamento)
+Il campione complessivo sarà di **12-15 partecipanti** (suddivisi in circa 6-7 nuclei abitativi), profilati secondo i seguenti cluster estratti dall'Ecosystem Map:
+
+* **Cluster 1: Lo "Studentato" spontaneo (3-4 coinquilini, focus budget):** Alta transitorietà, spesa frammentata, uso intensivo di digital tools per lo split dei costi. Target affine a Penny Market.
+* **Cluster 2: Young Professionals in Co-housing (2-3 lavoratori fuori sede, focus time-saving):** Maggiore potere d'acquisto, alta penetrazione dei servizi di delivery, l'app serve a ottimizzare i tempi. Target affine a Esselunga.
+* **Cluster 3: Il Lead Buyer (Profilo trasversale):** L'inquilino che storicamente si fa carico dell'ordine logistico per tutti e che sperimenta la massima frizione nel "rincorrere" gli altri per i rimborsi.
+
+## 7. Expected Outputs (I Deliverable della Ricerca)
+I dati qualitativi raccolti verranno sintetizzati e modellati nei seguenti artifact di design:
