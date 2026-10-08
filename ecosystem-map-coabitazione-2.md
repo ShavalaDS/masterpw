@@ -1,17 +1,17 @@
-# 📋 Documentazione di Progetto: Delivery GDO per Nuove Forme dell'Abitare
+# Documentazione di Progetto: Delivery GDO per Nuove Forme dell'Abitare
 **Progetto:** Ottimizzazione dei servizi di e-grocery (Esselunga / Penny Market) per nuclei di coabitazione non familiare.
 **Metodologia:** Strategic UX Research & Service Design.
 
 ---
 
-# PART 1: 🗺️ Ecosystem Map & Validazione dei Dati
+# PART 1: Ecosystem Map & Validazione dei Dati
 
-## 📊 Verifica della Tesi alla luce delle evidenze incrociate
+##  Verifica della Tesi alla luce delle evidenze incrociate
 
 **Tesi Iniziale:** 
 *La casa non è più progettata soltanto per una famiglia, ma per una pluralità di persone e relazioni temporanee. Le app di spesa online della GDO (es. Esselunga, Penny) ignorano questo segmento collettivo, trattandolo erroneamente tramite account singoli.*
 
-### 🔍 Il Fact-Checking Metodologico: Cosa è vero e cosa no?
+###  Il Fact-Checking Metodologico: Cosa è vero e cosa no?
 
 1. **L'invisibilità anagrafica vs La realtà dei fatti:** L'intuizione di partenza è **parzialmente smentita** dal solo dato demografico Istat sulle famiglie, dove le coabitazioni non parentali faticano a emergere in modo pulito nella voce "Altra tipologia", ferma al 3,6%.
 2. **La prova regina (I dati OMI):** La tesi viene **pienamente confermata** quando si incrocia la demografia con la contabilità dei contratti reali dell'Agenzia delle Entrate (OMI). La serie storica sul numero di contratti per **"Immobili in porzione"** (affitto di singole stanze) mostra un balzo netto da 265.277 a **349.028 contratti registrati**, certificando che circa il 35% delle locazioni urbane attive nei capoluoghi è ormai a stanze.
@@ -19,7 +19,7 @@
 
 ---
 
-## 🖼️ Ecosystem Map Strutturata
+##  Ecosystem Map Strutturata
 
 ```mermaid
 flowchart TD
@@ -77,7 +77,7 @@ flowchart TD
 
 ---
 
-## 📊 Tassonomia delle Forme di Coabitazione
+##  Tassonomia delle Forme di Coabitazione
 
 ```mermaid
 graph TD
@@ -100,7 +100,7 @@ graph TD
 
 ---
 
-## 🔄 Il Modello delle Frizioni e Mappatura delle Soluzioni
+##  Il Modello delle Frizioni e Mappatura delle Soluzioni
 
 ```mermaid
 flowchart LR
@@ -134,7 +134,7 @@ flowchart LR
 
 ---
 
-# PART 2: 📋 UX Research Plan
+# PART 2:  UX Research Plan
 
 ## 1. Background & Context
 Le attuali piattaforme di e-grocery e delivery dei grandi player della GDO (es. Esselunga, Penny Market) sono storicamente progettate su modelli familiari tradizionali o sul profilo del consumatore singolo. 
