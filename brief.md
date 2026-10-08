@@ -1,5 +1,24 @@
-The users are the household manager and the members of a co-managed group account (such as students or a family) who must coordinate their weekly shopping together.
+---
+title: "Brief definition — Redesigning grocery delivery"
+date: 2026-10-08
+activity: brief
+source: "Brief 2 — Cart · Retail & Grocery"
+author: "Shavala"
+channel: repository
+method: brief scoping
+tags: [e-grocery, retail, co-habitation, brief]
+confidence: high
+grade: tertiary
+status: complete
+related: [plan.md, index.md]
+---
 
-The core problem is the high friction and mental load of manually combining diverse dietary needs, seasonal preferences, and budget splitting into a single, cohesive supermarket basket without causing food waste or missing items.
+# Brief selection — Redesigning grocery delivery
 
-This problem interests me because it leverages AI as a smart mediator to co-design a predictive, synchronized shopping experience, transforming a chaotic domestic routine into an optimized, sustainable, and collaborative process.
+The users are independent consumers living in non-familial co-habitations (representing up to 35% of urban leases) who currently use separate e-grocery accounts but deliver to the exact same home address [1.9, 1.3.14].
+
+The core problem is that supermarket platforms fail to recognize these individual accounts as a single domestic ecosystem, missing the opportunity to provide tools for co-managing shared expenses while suffering heavy logistical inefficiencies from fragmented deliveries to the same household [1.9, 1.3.14].
+
+This problem interests me because introducing an AI-powered shared cart experience creates a win-win service model: it solves the roommates' cognitive load regarding communal budget-splitting, while giving the retailer an accurate map of household consumption data and optimized fleet logistics [1.9, 1.3.14].
+
+

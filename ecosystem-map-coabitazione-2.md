@@ -9,7 +9,7 @@
 ##  Verifica della Tesi alla luce delle evidenze incrociate
 
 **Tesi Iniziale:** 
-*La casa non è più progettata soltanto per una famiglia, ma per una pluralità di persone e relazioni temporanee. Le app di spesa online della GDO (es. Esselunga, Penny) ignorano questo segmento collettivo, trattandolo erroneamente tramite account singoli.*
+*La casa non è più progettata soltanto per una famiglia, ma per una pluralità di persone e relazioni temporanee. Le app di spesa online della GDO (es. Esselunga, Penny) ignorano questo segmento collettivo, trattandolo tramite account singoli.*
 
 ###  Il Fact-Checking Metodologico: Cosa è vero e cosa no?
 
