@@ -1,40 +1,58 @@
-# Research Plan — Delivery GDO per Nuove Forme dell'Abitare
+# 📋 UX Research Plan — Delivery GDO per Nuove Forme dell'Abitare
+**Project:** E-grocery & Service Design Innovation (Esselunga / Penny Market)
+**Approach:** Data Triangulation & Co-habitation Ecosystem Research
+**Status:** Advanced Draft for Design Director Review
 
-## 1. Background & Context
-Le attuali piattaforme di e-grocery e delivery dei grandi player della GDO (es. Esselunga, Penny Market) sono storicamente progettate su modelli familiari tradizionali o sul profilo del consumatore singolo. I dati demografici correnti evidenziano tuttavia una trasformazione strutturale della società: il crollo dei nuclei familiari con figli e la crescita esponenziale di famiglie unipersonali e coabitazioni non familiari. 
+---
 
-Esiste un segmento di mercato emergente — composto da coinquilini non parenti (studenti, giovani professionisti, co-housers) — le cui dinamiche di economia domestica, logistica e condivisione delle spese alimentari non sono attualmente intercettate dall'offerta digitale della GDO.
+## 1. Executive Summary & Background
+Le attuali piattaforme di e-grocery e delivery dei grandi player della GDO (es. Esselunga, Penny Market) sono storicamente modellate su paradigmi familiari tradizionali (carrello unico, transazione singola) o sull'estrema parcellizzazione del consumatore single. I flussi demografici e immobiliari correnti certificano tuttavia una trasformazione strutturale del tessuto sociale, caratterizzata da due macro-fenomeni interconnessi:
+1. **Il "Cieco Anagrafico" Istat:** Sebbene le famiglie unipersonali rappresentino il 36,2% del totale nazionale, le metriche demografiche tradizionali non riescono a tracciare la condivisione spontanea degli spazi. Tre inquilini non parenti coabitanti risultano all'anagrafe come tre entità single distinte.
+2. **La realtà contrattuale OMI:** L'Osservatorio del Mercato Immobiliare dell'Agenzia delle Entrate evidenzia l'esplosione dei contratti per *Immobili in Porzione* (singole stanze in condivisione), saliti a quota **349.028 unità attive**, pari a circa il 35% delle locazioni totali nei grandi capoluoghi urbani.
 
-## 2. Business Objectives & Design Opportunity
-* **Dimostrare l'esistenza e il valore** di un cluster di utenti "collettivo" (il nucleo di coabitazione) attualmente ignorato dai sistemi di carrello e pagamento unici.
-* **Identificare nuove feature di servizio** (es. carrelli condivisi, split-payment nativo, gestione delle macro-scorte comuni) in grado di posizionare il brand come abilitatore di nuove forme di convivenza, aumentando la fidelizzazione e lo scontrino medio della casa.
+**L'Opportunità di Design:** Esiste un segmento di mercato massivo — il *Nucleo di Coabitazione Non Familiare* — le cui dinamiche di economia domestica, logistica alimentare e micro-transazioni valutarie non sono attualmente intercettate dall'architettura dei servizi digitali della GDO. Questo piano mira a esplorare l'universo relazionale di questi gruppi per progettare feature di servizio dedicate.
 
-## 3. Research Goals (Obiettivi di Ricerca)
-* **Goal 1:** Comprendere i modelli mentali e le dinamiche di collaborazione/frizione tra coinquilini nella gestione della spesa e della dispensa.
-* **Goal 2:** Mappare l'attuale ecosistema di strumenti "accrocchiati" dagli utenti (es. WhatsApp + Splitwise + Excel) per compensare i limiti delle attuali app di delivery.
-* **Goal 3:** Isolare i comportamenti d'acquisto comunitari (beni condivisi) da quelli individuali (spesa personale) all'interno dello stesso nucleo abitativo.
-* **Goal 4:** Indagare la percezione e il posizionamento dei brand GDO (Premium vs Discount) all'interno delle economie di coabitazione.
+---
 
-## 4. Key Research Questions (Domande di Ricerca)
-* *In che modo i coinquilini negoziano la lista della spesa comune e bilanciano le preferenze alimentari individuali?*
-* *Quali sono i punti di attrito principali nella catena logistica della spesa in casa (dall'ordine, al momento del pagamento, fino allo stoccaggio in frigo)?*
-* *Come viene vissuto l'impatto economico della spesa e come vengono gestiti i micro-debiti interni?*
+## 2. Business Objectives & Design Goals
+L'attività di ricerca persegue obiettivi strategici sia sul piano dell'opportunità di mercato che della definizione del servizio:
+* **Validare l'Unità di Analisi Collettiva:** Dimostrare al business il valore economico e la frequenza di riacquisto di un cluster "comunitario" (la casa) rispetto al singolo utente isolato.
+* **Mappare la "Shadow Economy" Domestica:** Isolare i comportamenti di compensazione digitale (es. l'uso combinato di WhatsApp, Splitwise, Excel o scambi di contanti) adottati dagli utenti per aggirare i limiti transazionali delle app attuali.
+* **Definire i Requisiti della Nuova Proposta di Valore (To-Be):** Estrarre i requisiti funzionali per l'introduzione di feature dirompenti quali carrelli multi-utente condivisi, split-payment nativo al checkout e sistemi di sub-categorizzazione della dispensa digitale.
 
-## 5. Methodology & Research Tools
-Per rispondere agli obiettivi utilizzeremo un approccio qualitativo ed esplorativo, ideale per mappare comportamenti complessi:
+---
 
-* **Interviste Qualitative Semi-strutturate (In-depth Interviews):** Interviste di 60 minuti condotte idealmente a coppie di coinquilini appartenenti allo stesso nucleo. Il focus sarà il racconto di episodi reali e la ricostruzione dell'ultima spesa effettuata.
-* **Osservazione Contestuale / Contextual Inquiry (Disamina della Dispensa):** Durante le interviste, chiederemo ai partecipanti di mostrarci (anche via webcam o foto) l'organizzazione fisica del frigorifero e della dispensa, per validare sul campo le regole invisibili di gestione degli spazi condivisi.
+## 3. Key Research Questions
+Il framework conoscitivo si articolerà attorno a tre quesiti fondamentali:
+* *In che modo i membri di una coabitazione negoziano la soglia tra spesa comunitaria (macro-scorte e beni condivisi) e spesa strettamente individuale (preferenze e diete personali)?*
+* *Quali sono le frizioni sistemiche, i carichi cognitivi e i conflitti relazionali che emergono nelle fasi di anticipo economico del denaro, rincorsa dei micro-debiti e stoccaggio fisico delle merci?*
+* *Come varia la percezione e la scelta del brand GDO (Premium/Esselunga vs Discount/Penny Market) in relazione all'economia contrattuale e alla transitorietà del nucleo abitativo?*
 
-## 6. Target & Sampling Plan (Criteri di Reclutamento)
-Il campione complessivo sarà di **12-15 partecipanti** (suddivisi in circa 6-7 nuclei abitativi), profilati secondo i seguenti cluster estratti dall'Ecosystem Map:
+---
 
-* **Cluster 1: Lo "Studentato" spontaneo (3-4 coinquilini, focus budget):** Alta transitorietà, spesa frammentata, uso intensivo di digital tools per lo split dei costi. Target affine a Penny Market.
-* **Cluster 2: Young Professionals in Co-housing (2-3 lavoratori fuori sede, focus time-saving):** Maggiore potere d'acquisto, alta penetrazione dei servizi di delivery, l'app serve a ottimizzare i tempi. Target affine a Esselunga.
-* **Cluster 3: Il Lead Buyer (Profilo trasversale):** L'inquilino che storicamente si fa carico dell'ordine logistico per tutti e che sperimenta la massima frizione nel "rincorrere" gli altri per i rimborsi.
+## 4. Methodology & Data Triangulation
+Per azzerare i punti ciechi delle rilevazioni quantitative, adotteremo un approccio qualitativo ed esplorativo basato sulla **triangolazione metodologica** (l'incrocio critico tra i macro-trend demografici/immobiliari e i micro-comportamenti estratti sul campo):
 
-## 7. Expected Outputs (I Deliverable della Ricerca)
-I dati qualitativi raccolti verranno sintetizzati e modellati nei seguenti artifact di design:
-1. **User Personas di Nucleo:** Non profili individuali, ma archetipi di "relazione e convivenza" (es. *I coinquilini simbiotici* vs *Gli estranei coordinati*).
-2. **As-Is User Journey Map:** La mappatura dell'esperienza attuale della spesa condivisa, evidenziando i *Pain Point* (punti di dolore) logistici ed economici e i *Touchpoint* attuali.
-3. **To-Be Service Blueprint (High-Level):** Una prima mappatura della nuova proposta di servizio sull'app, che colleghi l'esperienza utente (frontstage) con i processi di calcolo e checkout della GDO (backstage).
+* **Interviste Qualitative Semi-strutturate di Nucleo (In-depth Dyadic Interviews):** Sessioni di 60 minuti condotte preferibilmente a coppie di coinquilini dello stesso appartamento. Questa tecnica permette di far emergere non solo la narrazione del singolo, ma la negoziazione e le dinamiche relazionali reali che avvengono nel momento della pianificazione e del pagamento.
+* **Contextual Inquiry & Analisi della Dispensa (Shadowing Visivo):** Durante le interviste, verrà condotta una disamina guidata dagli utenti del frigorifero e degli spazi di stoccaggio della casa (tramite documentazione fotografica o video). L'obiettivo è validare i modelli mentali spaziali e le "regole invisibili" di partizione fisica del cibo.
+
+---
+
+## 5. Sampling Plan & Recruiting Criteria (Targeting)
+Il campione includerà **12-15 partecipanti** (articolati su 6-7 nuclei abitativi), selezionati per mappare le polarità economiche e demografiche emerse dall'Ecosystem Map:
+
+| Cluster Target | Razionale Metodologico | Focus di Canale / GDO |
+| :--- | :--- | :--- |
+| **Cluster 1: Lo Studentato Spontaneo** (3-4 coinquilini) | Massima transitorietà, budget rigido, alta frammentazione dei consumi. Uso pervasivo di app di split-cost di terze parti. | *Affinità:* **Penny Market** (Ottimizzazione del prezzo e macro-scorte comuni). |
+| **Cluster 2: Young Professionals in Co-housing** (2-3 lavoratori fuori sede) | Maggiore potere d'acquisto, vincoli di tempo elevati. Elevata penetrazione dei servizi di delivery; la spesa online serve come strumento di ottimizzazione logistica. | *Affinità:* **Esselunga** (Focus su time-saving, qualità del fresco e loyalty program). |
+| **Cluster 3: Il Lead Buyer** (Profilo trasversale) | L'inquilino che assume stabilmente il ruolo di "carico logistico ed economico" della casa, sperimentando il massimo livello di frustrazione nel recupero crediti. | *Funzione:* Identificazione delle metriche di usabilità e dei flussi transazionali critici. |
+
+**Criteri di Esclusione Rigidi:** Soggetti coabitanti legati da vincoli di parentela di primo grado o relazioni di coppia stabili (già intercettati dai modelli tradizionali di mercato).
+
+---
+
+## 6. Research Artifacts & Deliverables
+I dati qualitativi emersi dalla ricerca sul campo verranno sintetizzati e modellati nei seguenti deliverable strategici:
+1. **User Personas di Relazione:** Archetipi incentrati non sulle caratteristiche psicografiche individuali, ma sui modelli di convivenza e interazione finanziaria (es. *I Coinquilini Simbiotici* vs *Gli Estranei Coordinati*).
+2. **As-Is User Journey Map:** La mappatura end-to-end dell'esperienza attuale della spesa, dall'allineamento della lista su WhatsApp fino alla risoluzione dei debiti su Splitwise, identificando i *Pain Point* logistici e i *Moments of Truth*.
+3. **High-Level Service Blueprint (To-Be):** Quadro sinottico che colleghi l'esperienza utente sulla nuova interfaccia (frontstage) con l'infrastruttura di calcolo transazionale e i flussi logistici della GDO (backstage).
