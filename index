@@ -10,7 +10,7 @@ tags: [e-grocery, retail, co-habitation, index]
 confidence: high
 grade: tertiary
 status: in-progress
-related: [plan.md, brief.md, desk.md]
+related: [plan.md, brief.md, desk.md, proto_journey.md]
 ---
 
 # Index — the map of the research base
@@ -21,9 +21,10 @@ Every note in this repository, with type and status. Updated with every commit. 
 
 - `brief.md` — la definizione formale del brief in tre frasi, l'utente e il core problem — **complete** · primary · high confidence
 
-## Plan
+## Plan & Assumptions
 
 - `plan.md` — il piano di ricerca: domande di ricerca, campionamento delle attività human-led e field observation — **in-progress** · primary · high confidence
+- `proto_journey.md` — la mappa delle assunzioni di partenza del team di design per la futura gap-analysis — **complete** · tertiary · medium confidence
 
 ## Notes
 

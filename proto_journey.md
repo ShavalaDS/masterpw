@@ -71,5 +71,3 @@ Cosa registrare: partizione fisica degli spazi del frigorifero tra i vari membri
 ## Success criteria
 
 Dall'analisi del brief: la feature deve integrarsi nativamente nel servizio di e-grocery (Esselunga/Penny), deve dimostrare una riduzione immediata del carico cognitivo (frizioni economiche) o dei costi logistici di flotta (unificazione slot di consegna allo stesso indirizzo), e deve usare l'AI come mediatore di consumi multi-utente.
-
-
