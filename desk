@@ -15,16 +15,16 @@ related: [plan.md, index.md, brief.md]
 
 # Desk research — Co-habitation trends and GDO data blindspots in Italy
 
-The macro context for Brief 2: how the structural decline of traditional families combined with the explosive growth of roommate co-habitation creates a systemic data blindspot for major supermarket chains (e.g., Esselunga, Penny Market). Every figure below traces to a source.
+The macro context for Brief 2: how the structural decline of traditional families combined with the explosive growth of roommate co-habitation creates a systemic data blindspot for major supermarket chains (e.g., Esselunga, Penny Market) [1.9, 1.3.14]. Every figure below traces to a source.
 
 ## The Demographic Picture: Solitary vs Fictional Single Households
 
 According to the latest official Istat demographic indicators, the traditional Italian household structure is undergoing a radical contraction:
-- **Single-person households (Famiglie unipersonali)** have skyrocketed to **36.2%** of the total national landscape.
-- **Couples with children** have collapsed down to **29.2%**.
-- The average household size has shrunk to approximately **2.2 people**.
+- **Single-person households (Famiglie unipersonali)** have skyrocketed to **36.2%** of the total national landscape [web:19].
+- **Couples with children** have collapsed down to **29.2%** [web:19].
+- The average household size has shrunk to approximately **2.2 people** [web:19].
 
-**The Data Blindspot:** This demographic metric suffers from an inherent administrative lag. When 3 or 4 unrelated roommates share an apartment under separate contracts, the civil registry (Anagrafe) frequently processes them as separate "single-person households". On paper, they look isolated; inside the kitchen, they share physical space, transit routines, and fridge capacity.
+**The Data Blindspot:** This demographic metric suffers from an inherent administrative lag. When 3 or 4 unrelated roommates share an apartment under separate contracts, the civil registry (Anagrafe) frequently processes them as separate "single-person households". On paper, they look isolated; inside the kitchen, they share physical space, transit routines, and fridge capacity [web:19].
 
 ## The Real Estate Evidence: 35% of urban leases are shared rooms
 
@@ -43,12 +43,13 @@ Data from real estate firms **Colliers Italia and JLL (2025-2026)** confirms tha
 ## Signals — Reading, not evidence
 
 - **Focus on Logistical and Economic MVP:** Advanced algorithm features like seasonal cooking suggestions or dietary AI profiling are secondary. The immediate, high-impact value proposition lies in **logistical consolidation** (one delivery slot per household) and **native split-payment tracking**. This directly addresses the brief's mandate: *"reduces friction, effort... and integrates naturally into an existing supermarket service"*.
-- **High-Confidence Real Estate Metrics:** Unlike subjective user reporting, the Revenue Agency's OMI data is a hard economic metric. This grants our strategic positioning maximum defensibility during the design review. Supermarket networks have adapted their inventories to single-portions, but their digital services have completely failed to adapt to multi-tenant digital carts.
+- **High-Confidence Real Estate Metrics:** Unlike subjective user reporting, the Revenue Agency's OMI data is a hard economic metric. This grants our strategic positioning maximum defensibility during the design review. Supermarket networks have adapted their inventories to single-portions, but their digital services have completely failed to adapt to multi-tenant digital carts [1.9, 1.3.14].
 
 ## Sources
 
-- **[S1] Istat (Istituto Nazionale di Statistica)** — [Comunicato Stampa Istat — Indicatori Demografici](https://www.istat.it/comunicato-stampa/indicatori-demografici-anno-2024/ "Istat indicatori demografici anno 2024"). Official demographic structures, primary data source tracking the decline of nuclear families. Grade: **primary** · confidence: **high**.
-- **[S2] Istat (Istituto Nazionale di Statistica - PDF)** — [Report Completo Istat PDF](https://www.istat.it/wp-content/uploads/2025/03/Indicatori_demografici_2024.pdf "Istat indicatori demografici report pdf"). Tabelle strutturali sulla composizione dei componenti familiari medi. Grade: **primary** · confidence: **high**.
-- **[S3] Agenzia delle Entrate, Osservatorio del Mercato Immobiliare (OMI)** — [Banche Dati OMI — Agenzia delle Entrate](https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/omi/banche-dati/quotazioni-immobiliari "Quotazioni e statistiche locazioni OMI Agenzia Entrate"). Official contract registration data tracking the data series of "Immobili in Porzione" and leases. Grade: **primary** · confidence: **high**.
-- **[S4] Agenzia delle Entrate (Manuali e Guide)** — [Note Metodologiche OMI](https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/omi/manuali-e-guide "Manuali e note metodologiche OMI"). Quadri informativi e definizioni tecniche sui contratti di porzione di immobile. Grade: **primary** · confidence: **high**.
+- **[S1] Istat (Istituto Nazionale di Statistica)** — [Comunicato Stampa Istat — Indicatori Demografici](https://istat.it "Istat indicatori demografici anno 2024"). Official demographic structures, primary data source tracking the decline of nuclear families. Grade: **primary** · confidence: **high**.
+- **[S2] Istat (Istituto Nazionale di Statistica - PDF)** — [Report Completo Istat PDF](https://istat.it "Istat indicatori demografici report pdf"). Tabelle strutturali sulla composizione dei componenti familiari medi. Grade: **primary** · confidence: **high**.
+- **[S3] Agenzia delle Entrate, Osservatorio del Mercato Immobiliare (OMI)** — [Banche Dati OMI — Agenzia delle Entrate](https://agenziaentrate.gov.it "Quotazioni e statistiche locazioni OMI Agenzia Entrate"). Official contract registration data tracking the data series of "Immobili in Porzione" and leases. Grade: **primary** · confidence: **high**.
+- **[S4] Agenzia delle Entrate (Manuali e Guide)** — [Note Metodologiche OMI](https://agenziaentrate.gov.it "Manuali e note metodologiche OMI"). Quadri informativi e definizioni tecniche sui contratti di porzione di immobile. Grade: **primary** · confidence: **high**.
+
 

@@ -9,8 +9,8 @@ method: research planning
 tags: [e-grocery, research-plan, co-habitation, data-triangulation]
 confidence: high
 grade: tertiary
-status: in corso
-related: [brief.md, index.md, desk.md, interview.md]
+status: in-progress
+related: [brief.md, index.md, desk.md]
 ---
 
 # Research plan — Delivery GDO per Nuove Forme dell'Abitare
@@ -23,51 +23,53 @@ Brief 2 — Cart · Retail & Grocery: Design a feature that improves a specific 
 
 ## Research questions
 
-1. Come negoziano oggi i coinquilini la divisione tra beni di consumo comune (macro-scorte) e prodotti a uso strettamente personale?
-2. Quali strumenti e "accrocchi" esterni alle app GDO (WhatsApp, Splitwise, Excel) vengono utilizzati per tracciare la spesa di casa, e dove si creano i blocchi informativi o finanziari?
-3. Quali sono i carichi cognitivi e le barriere psicologiche affrontate dal "Lead Buyer" che deve anticipare il denaro per l'intero nucleo abitativo?
+1. Come negoziano oggi i gruppi di coinquilini la divisione tra beni di consumo comune (macro-scorte) e prodotti a uso strettamente personale?
+2. Attrapetto quali canali, abitudini o artefatti (digitali e analogici) i membri della casa tracciano e si ripartiscono le spese comuni, e dove si verificano i blocchi informativi o transazionali?
+3. Quali sono i carichi cognitivi e le barriere psicologiche affrontate dal "Lead Buyer" che deve anticipare il denaro per l'intero gruppo di coabitazione?
 4. Quali inefficienze logistiche affronta la flotta di consegna della GDO a causa della mancata categorizzazione di account diversi residenti allo stesso indirizzo?
 
-## Human-led activities — 3 Dyadic Interviews
+## Human-led activities — 3 Household Group Interviews (Sampling & Recruiting Phase)
 
-Interviste qualitative semi-strutturate condotte a coppie di coinquilini dello stesso nucleo abitativo, ~30 minuti ciascuna. Il consenso viene registrato all'inizio della sessione.
+Interviste qualitative di gruppo condotte direttamente con i membri dello stesso nucleo abitativo (interi gruppi di 3-4 coinquilini), ~45 minuti ciascuna. I gruppi reali sono in fase di selezione sulla base dei seguenti criteri di campionamento teorico.
 
-| # | Who | Household & GDO Profile | Focus | When |
+| # | Target Cluster / Tipologia | Household Size & GDO Profile | Focus di Ricerca | Status |
 |---|---|---|---|---|
-| 1 | EXAMPLE | Marta B. (24, st) + Luca R. (23, st) | 4 Roommates, Studentato spontaneo — Target **Penny Market** | Low budget, split dei costi pervasivo, acquisti di sottomarche. | 2026-10-08, 14:30 |
-| 2 | EXAMPLE | Alessandro F. (29, pro) + Sara C. (28, pro) | 3 Young Professionals, Co-housing — Target **Esselunga** | Time-saving, alta penetrazione delivery, gestione spazi frigo. | 2026-10-09, 19:00 |
-| 3 | EXAMPLE | (31, worker) + Elena M. (33, worker) | 2 Workers, Affitto a stanze a lungo termine — Mixed GDO | Transitorietà contrattuale, pianificazione scorte comuni. | 2026-10-10, 11:00 |
+| 1 | **Studentato Spontaneo** (Gruppo di studenti universitari) | 3-4 Coinquilini fuori sede, budget ridotto — *Affinità:* **Penny Market** | Ottimizzazione del prezzo, dinamiche spontanee di suddivisione dei costi, scorte collettive. | **recruiting** |
+| 2 | **Young Professionals Co-housing** (Gruppo di lavoratori fuori sede) | 3-4 Professionisti (24-35 anni), conti separati — *Affinità:* **Esselunga** | Vincoli di tempo elevati, alta penetrazione delivery, gestione promiscua degli spazi frigo. | **recruiting** |
+| 3 | **Coabitazione Mista / Adulti** (Gruppo di inquilini non imparentati) | 3+ Adulti, contratti a stanza a lungo termine — *Affinità:* **Mixed GDO** | Transitorietà contrattuale, flussi di tracciamento finanziario e stabilità delle routine. | **recruiting** |
 
-Guida di intervista: routine di spesa attuale \(\rightarrow\) l'ultima volta che si è anticipato il denaro \(\rightarrow\) come si dividono i conti contanti/altre piattaforme digitali \(\rightarrow\) la gestione fisica del frigo e i duplicati scaduti.
+Guida di intervista (in fase di bozza): routine di spesa attuale del gruppo → mappatura di come avvengono i rimborsi e la divisione dei conti → dinamiche di pagamento e anticipo del denaro → la gestione fisica del frigo e i conflitti sui prodotti consumati o scaduti.
 
-## AI-led activity — desk research on co-habitation trends
+## AI-led activity — desk research on co-habitation trends (Complete)
 
 Topic: incrocio dei dati demografici Istat con i contratti di locazione per stanze singole dell'Agenzia delle Entrate (OMI) per mappare il "cieco dei dati" della GDO.
 
-Completato in 2026-10-08 \(\rightarrow\) `desk.md`.
+Completato in data odierna → `desk.md`.
 
-## Field observation — Contextual Inquiry & Dispensa Shadowing
+## Field observation — 2 Contextual Inquiries (Scheduled)
 
-Osservazione guidata del contesto domestico e dei touchpoint fisici d'acquisto subito dopo una consegna di e-grocery.
+Osservazione guidata del contesto domestico e dei touchpoint fisici d'acquisto subito dopo una consegna di e-grocery. L'accesso ai campi di osservazione avverrà a seguito del reclutamento dei nuclei.
 
-| # | Moment | Where | When |
-|---|---|---|---|
-| 1 | Frigo & Dispensa | Cucina condivisa del Cluster 1 (Studenti) | 2026-10-09, 15:00–15:45 |
-| 2 | Scarico e Stoccaggio | Ingresso e cucina del Cluster 2 (Professionisti) durante la consegna | 2026-10-13, 20:00–20:45 |
+| # | Moment | Where | Target Context | Status |
+|---|---|---|---|---|
+| 1 | Frigo & Dispensa di Gruppo | Cucina condivisa | Contesto domestico del Cluster 1 (3-4 Studenti) | **scheduled** |
+| 2 | Scarico e Stoccaggio Collettivo | Ingresso e cucina | Momento della consegna del Cluster 2 (3-4 Professionisti) | **scheduled** |
 
-Cosa registrare: partizione fisica degli spazi del frigorifero (presenza di etichette o ripiani dedicati), presenza di liste analogiche (lavagne, post-it), controllo dei prodotti duplicati o scaduti.
+Cosa registrare: partizione fisica degli spazi del frigorifero tra i vari membri (presenza di etichette o ripiani dedicati), presenza di liste analogiche (lavagne, post-it), controllo dei prodotti duplicati o scaduti in dispensa.
 
 ## Timeline
 
-| When | What | Output |
-|---|---|---|
-| 2026-10-08 | Desk research & Triangolazione OMI/Istat | `desk.md` |
-| 2026-10-08 → 10 | Tre interviste diadiche + trascrizioni | null |
-| 2026-10-09 | Osservazione: Frigo & Dispensa Studenti | null |
-| 2026-10-13 | Osservazione: Consegna e Stoccaggio Professionisti | null |
-| 2026-10-14 | Sintesi dei dati, mappatura della Proto-Journey | `index.md` aggiornato |
+| When | What | Output | Status |
+|---|---|---|---|
+| 2026-10-08 | Desk research & Triangolazione OMI/Istat | `desk.md` | **complete** |
+| 2026-10-09 → 12 | Selezione dei gruppi e conduzione di 3 interviste collettive | `notes/...` | **scheduled** |
+| 2026-10-10 | Osservazione: Frigo & Dispensa Studenti | observation note | **scheduled** |
+| 2026-10-13 | Osservazione: Consegna e Stoccaggio | observation note | **scheduled** |
+| 2026-10-14 | Sintesi dei dati qualitativi e modellazione artifact | `index.md` aggiornato | **scheduled** |
+| 2026-10-15 | Generazione della As-Is User Journey Map finale | journey diagram | **scheduled** |
 
 ## Success criteria
 
 Dall'analisi del brief: la feature deve integrarsi nativamente nel servizio di e-grocery (Esselunga/Penny), deve dimostrare una riduzione immediata del carico cognitivo (frizioni economiche) o dei costi logistici di flotta (unificazione slot di consegna allo stesso indirizzo), e deve usare l'AI come mediatore di consumi multi-utente.
+
 

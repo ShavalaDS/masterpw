@@ -1,0 +1,38 @@
+---
+title: "Index — the map of the research base"
+date: 2026-10-08
+activity: index
+source: "This research repository"
+author: "Student Name"
+channel: repository
+method: knowledge-base map
+tags: [e-grocery, retail, co-habitation, index]
+confidence: high
+grade: tertiary
+status: in-progress
+related: [plan.md, brief.md, desk.md]
+---
+
+# Index — the map of the research base
+
+Every note in this repository, with type and status. Updated with every commit. If a file is not listed here, it does not exist as far as the knowledge base is concerned.
+
+## Format
+
+- `brief.md` — la definizione formale del brief in tre frasi, l'utente e il core problem — **complete** · primary · high confidence
+
+## Plan
+
+- `plan.md` — il piano di ricerca: domande di ricerca, campionamento delle attività human-led e field observation — **in-progress** · primary · high confidence
+
+## Notes
+
+- `desk.md` — desk research note, analisi dei trend di coabitazione in Italia e dei ciechi dei dati della GDO (Istat/OMI) — **complete** · secondary · high confidence
+
+## Pipeline / Scheduled Activities (Not yet collected)
+
+- Intervista di Gruppo 01 — Tipologia: Nucleo Studenti Fuori Sede (3-4 persone - Penny Market Profile) — **scheduled (recruiting phase)**
+- Intervista di Gruppo 02 — Tipologia: Nucleo Young Professionals (3-4 persone - Esselunga Profile) — **scheduled (recruiting phase)**
+- Intervista di Gruppo 03 — Tipologia: Coabitazione Adulta Co-managing (3+ persone) — **scheduled (recruiting phase)**
+- Osservazione Contestuale 01 — Mappatura fisica Frigo/Dispensa in contesto di gruppo studenti — **scheduled**
+- Osservazione Contestuale 02 — Analisi momento di consegna collettiva in contesto professionisti — **scheduled**
